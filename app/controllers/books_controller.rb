@@ -10,4 +10,8 @@ class BooksController < ApplicationController
   def edit
     @books = Book.find(params[:id]) 
   end
+
+  def index
+  
+  end
 end
