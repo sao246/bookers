@@ -1,11 +1,11 @@
+<div class="list-wrap">
 <h1>投稿一覧</h1>
-
+<p>Title         Body</p>
 <% @books.each do |book| %>
-
-  <p>タイトル</p>
   <span><%= book.title %></span>
-  
+  <span><%= book.body %></span>
 <% end %>
+
 <%= form_with model: @book, url: '/books', method: :post do |f| %>
 
   <h4>タイトル</h4>
@@ -16,3 +16,4 @@
   <%= f.submit 'Create Book'%>
 
 <% end %>
+</div>
