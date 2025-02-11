@@ -18,6 +18,7 @@ Things you may want to cover:
 * Database initialization
 
 * How to run the test suite :RSpec
+  カリキュラムのテストプログラムを使って検証を実施。バグ5件→解消済み。
 
 * Services (job queues, cache servers, search engines, etc.)
   
