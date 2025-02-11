@@ -21,5 +21,7 @@
   <%= book.text_area :body %>
 
 <%= book.submit 'Update Book' %>
+<%= link_to "Show", book_path(@book.id) %>
+<%= link_to "Back", '/books' %>
 
 <% end %>
