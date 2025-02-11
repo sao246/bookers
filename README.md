@@ -19,12 +19,12 @@ Things you may want to cover:
 
 * How to run the test suite :RSpec
 
-* 
 * Services (job queues, cache servers, search engines, etc.)
   
 テーマ： 読んだ本の感想を投稿するサイトです。DMM WEBCAMP課題実習の２番目
 
 実装画面：
+
 1:Topページ
 
 2:投稿一覧・新規投稿画面
